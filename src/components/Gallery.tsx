@@ -27,7 +27,7 @@ export default function Gallery() {
         h2::after {
           content: '';
           display: block;
-          width: 120px;
+          width: 100px;
           height: 6px;
           background: linear-gradient(to right, #feca57, #ff6b6b);
           margin: 15px auto;
