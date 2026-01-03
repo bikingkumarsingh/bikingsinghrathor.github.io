@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #ff6b6b 0%, #feca57 25%, #48dbfb 50%, #1dd1a1 75%, #ff9ff3 100%);
+  background-size: 400% 400%;
+  color: #fff;
+  min-height: 100vh;
+  animation: gradientShift 20s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+}
+
+h1, h2, h3 {
+  font-family: 'Oswald', sans-serif;
+}
