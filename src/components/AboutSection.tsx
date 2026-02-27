@@ -3,7 +3,7 @@
 export default function AboutSection() {
   const aboutItems = [
     "Name: Biking Singh Rathor",
-    "Age: 18 years old",
+    "Age: 20 years old",
     "Location: India",
     "Passion: Riding my bike and exploring new places",
     "Enjoy: Meeting new people and making friends",

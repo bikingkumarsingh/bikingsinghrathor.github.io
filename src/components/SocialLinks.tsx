@@ -9,7 +9,7 @@ export default function SocialLinks() {
     },
     {
       href: 'https://www.instagram.com/biking_singh_rathor?igsh=MTJudDUwczdoaHE0cg==',
-      icon: '📷',
+      icon: 'myprofile',
       label: 'Instagram',
     },
     {
