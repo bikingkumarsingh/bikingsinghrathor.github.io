@@ -47,14 +47,8 @@ export default function Gallery() {
           object-fit: cover;
           border-radius: 20px;
           box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
-          transition: all 0.5s ease;
           cursor: pointer;
           border: 4px solid rgba(255, 255, 255, 0.2);
-        }
-        .gallery-img:hover {
-          transform: scale(1.08) translateY(-15px);
-          box-shadow: 0 30px 60px rgba(255, 107, 107, 0.6);
-          border-color: #feca57;
         }
         @media (max-width: 768px) {
           .gallery { grid-template-columns: 1fr; gap: 20px; }

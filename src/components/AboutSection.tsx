@@ -56,16 +56,9 @@ export default function AboutSection() {
           background: rgba(255, 255, 255, 0.1);
           margin: 12px 0;
           border-radius: 15px;
-          transition: all 0.4s ease;
           position: relative;
           padding-left: 60px;
           border-left: 5px solid #feca57;
-        }
-        li:hover {
-          transform: translateX(15px);
-          background: rgba(255, 107, 107, 0.4);
-          border-left-color: #ff6b6b;
-          box-shadow: 0 10px 25px rgba(255, 107, 107, 0.3);
         }
         li::before {
           content: "🏍️";

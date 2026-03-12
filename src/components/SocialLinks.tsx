@@ -38,13 +38,7 @@ export default function SocialLinks() {
           border-radius: 50%;
           backdrop-filter: blur(10px);
           box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-          transition: all 0.4s ease;
           text-decoration: none;
-        }
-        .social-links a:hover {
-          transform: translateY(-15px) scale(1.3);
-          background: #ff6b6b;
-          box-shadow: 0 20px 40px rgba(255, 107, 107, 0.7);
         }
       `}</style>
       <div className="social-links">

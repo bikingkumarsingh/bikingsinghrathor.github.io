@@ -23,7 +23,7 @@ export default function RoseRain() {
   const rosesRef = useRef<Rose[]>([]);
   const idRef = useRef(0);
   const timeRef = useRef(0);
-  const isAnimatingRef = useRef(true);
+  const isAnimatingRef = useRef(false);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {

@@ -16,12 +16,6 @@ export default function ProfileImage() {
           margin: 40px auto;
           display: block;
           box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
-          transition: all 0.6s ease;
-        }
-        .profile-img:hover {
-          transform: scale(1.15) rotate(8deg);
-          border-color: #feca57;
-          box-shadow: 0 25px 60px rgba(254, 202, 87, 0.6);
         }
         @media (max-width: 768px) {
           .profile-img {
